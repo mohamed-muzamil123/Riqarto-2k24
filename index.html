@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Scratch Cards</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-primary text-white">
+  <div class="container mt-5">
+    <h1 class="text-center mb-4 text-info">CODE LETTERS</h1>
+    
+    <!-- Settings Section -->
+    <div class="row mb-4">
+      <div class="col-12 col-md-6 mx-auto">
+        <div class="mb-3">
+          <label for="card-count" class="form-label">How many Participants</label>
+          <input type="number" id="card-count" class="form-control" min="1" max="26" value="3">
+        </div>
+        <button id="start-btn" class="btn btn-warning w-100">Generate Scratch Cards</button>
+      </div>
+    </div>
+
+    <!-- Scratch Cards Container -->
+    <div id="scratch-cards-container" class="scratch-cards-container row gy-4 justify-content-center"></div>
+  </div>
+
+  <!-- Link to Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
