@@ -5,6 +5,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.logo{
+  width: 163px;
+  height: 64px;
+  margin-left: 304px;
+}
+
+
 /* Container styling */
 .container {
   max-width: 800px;
